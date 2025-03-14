@@ -1,0 +1,96 @@
+.stats{
+    /* border: solid red;  */
+
+}
+
+.skills{
+   /* border: solid green; */
+   justify-content: center;
+   align-items: center;
+}
+
+.skill{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    /* border: solid red; */
+}
+
+.heading{
+    text-align: center;
+}
+
+section{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    /* border: solid green; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.carousel{
+    /* border: solid red; */
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.container{
+    text-align: center;
+    /* border: solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    /* border: solid red; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    /* width: 400px; */
+}
+
+.mother{
+    /* border: solid blue; */
+    /* width: 100%; */
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    /* text-align: center;
+    align-items: center;
+    justify-content: center; */
+}
+
+svg{
+    /* border: solid red; */
+    height: 40px;
+}
+
+.card{
+    /* width: 200px; */
+    background-color: transparent;
+    /* border-radius: 100px; */
+    height: 70px;
+    width: 150px;
+    /* background-color: #4c6085; */
+}
+
+.card {
+     /* width: 150px; */
+    /* background-color: transparent;  */
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+
+  .kid{
+    /* border: solid blue; */
+  }
+
+  

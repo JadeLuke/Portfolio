@@ -1,0 +1,17 @@
+img{
+    border-radius: 15px; 
+    height: 315px;
+    width: 315px;
+}
+section{
+    background: hsla(219, 27%, 41%, 1);
+/* 
+background: radial-gradient(circle, hsla(219, 27%, 41%, 1) 0%, hsla(15, 93%, 71%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(219, 27%, 41%, 1) 0%, hsla(15, 93%, 71%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(219, 27%, 41%, 1) 0%, hsla(15, 93%, 71%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4C6085", endColorstr="#FA9372", GradientType=1 ); */
+}
+
