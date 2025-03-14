@@ -1,0 +1,26 @@
+h1{
+    font-size: 22px;
+    /* border: solid blue; */
+}
+section{
+    text-align: center;
+    margin-bottom: 50px;
+    /* border: solid red; */
+}
+
+.mother{
+    
+    /* border: solid purple; */
+}
+
+.card{
+    /* border: solid red; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }

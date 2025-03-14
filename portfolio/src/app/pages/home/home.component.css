@@ -1,8 +1,4 @@
-img{
-    border-radius: 15px; 
-    height: 315px;
-    width: 315px;
-}
+
 section{
     background: hsla(219, 27%, 41%, 1);
 /* 
@@ -15,3 +11,18 @@ background: -webkit-radial-gradient(circle, hsla(219, 27%, 41%, 1) 0%, hsla(15, 
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4C6085", endColorstr="#FA9372", GradientType=1 ); */
 }
 
+img{
+    height: 250px;
+    width: 220px;
+    border-radius: 10px;
+    /* border-radius: 150px; */
+}
+
+.pic{
+    /* border: solid red; */
+    align-items: center;
+}
+
+.hero{
+    height: 450px;
+}
