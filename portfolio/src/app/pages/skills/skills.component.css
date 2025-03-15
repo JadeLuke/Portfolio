@@ -93,4 +93,12 @@ svg{
     /* border: solid blue; */
   }
 
+  /* Base styles (Desktop view) */
+
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .mother.grid {
+      grid-template-columns: repeat(2, 1fr); /* Two cards per row on mobile */
+    }
+  }
   
