@@ -1,0 +1,146 @@
+p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about{
+    text-align: center;
+    /* font-size: 12px; */
+}
+
+section{
+    /* margin-bottom: 50px; */
+    /* border: solid red; */
+   text-align: center;
+   margin-top: 20px;
+}
+h1{
+    /* border: solid red; */
+    /* margin-top: -180px; */
+    font-size: 22px;
+}
+.hero{
+    height: 400px;
+}
+.heading{
+    text-align: center;
+}
+
+button{
+    /* border: solid red; */
+}
+
+.btn{
+    /* border: solid red; */
+ }
+
+
+
+ .input{
+    width: 750px;
+    /* width: 100%; */
+    border-radius: 50px;
+    justify-content: center; 
+    margin-bottom: 6px;
+    color: #344058;
+    
+ }
+ .inputFirst{
+    width: 750px;
+    /* width: 100%; */
+    border-radius: 20px;
+    /* justify-content: center;  */
+    margin-bottom: 6px;
+    /* text-align: center; */
+ }
+
+ .container{
+    /* border: solid red; */
+ 
+
+ }
+ .inputs{
+    /* border:solid green; */
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .input:hover{
+    cursor: pointer;
+    background-color: #d2d8e5;
+    transform: scale(1.15);
+    transition: transform 0.3s ease;
+    font-weight: 500;
+ }
+
+#inputFirst:hover{
+    cursor: pointer;
+    transform: scale(1.25);
+    transition: transform 0.3s ease;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+/* Media Queries for mobile responsiveness */
+
+/* For devices with a max-width of 768px */
+@media (max-width: 768px) {
+    h1{
+        font-size: 20px;
+    }
+
+    .input, .inputFirst {
+        width: 100%;
+        border-radius: 20px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    /* Adjust the text padding for smaller devices */
+    .input span {
+        font-size: 14px;
+    }
+}
+
+/* For devices with a max-width of 480px */
+@media (max-width: 480px) {
+    h1{
+        font-size: 18px;
+    }
+
+    .input, .inputFirst {
+        width: 100%;
+        border-radius: 20px;
+        font-size: 12px;
+        text-align: center;
+        padding: 8px;
+    }
+
+    .container {
+        padding: 0 5px;
+    }
+
+    /* Adjust the text padding for very small screens */
+    .input span {
+        font-size: 10px;
+    }
+
+    #inputFirst:hover {
+        transform: scale(1.05); /* Reduced scaling effect for mobile */
+        transition: transform 0.3s ease;
+        font-weight: 500;
+
+    }
+
+    .input:hover {
+        transform: scale(1.05); /* Reduced scaling effect for mobile */
+        transition: transform 0.3s ease;
+        font-weight: 500;
+    }
+}
+
