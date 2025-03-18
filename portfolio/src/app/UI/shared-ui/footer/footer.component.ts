@@ -8,5 +8,19 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
+  toAbout(){
+    document.getElementById('about')?.scrollIntoView({behavior: 'smooth'})
+  }
 
+  toSkills(){
+    document.getElementById('skills')?.scrollIntoView({behavior: 'smooth'})
+  }
+
+  toProjects(){
+    document.getElementById('projects')?.scrollIntoView({behavior: 'smooth'})
+  }
+
+  toTop(){
+    document.getElementById('top')?.scrollIntoView({behavior: 'smooth'})
+  }
 }
