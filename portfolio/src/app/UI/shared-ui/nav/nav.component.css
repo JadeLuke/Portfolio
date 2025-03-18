@@ -1,4 +1,6 @@
-
+*{
+    color: #3c4a68;
+}
 ul{
     align-items: baseline;
     margin-bottom: -5px;

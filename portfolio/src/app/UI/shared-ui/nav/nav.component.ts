@@ -21,4 +21,8 @@ export class NavComponent {
   toProjects(){
     document.getElementById('projects')?.scrollIntoView({behavior: 'smooth'})
   }
+
+  toTop(){
+    document.getElementById('top')?.scrollIntoView({behavior: 'smooth'})
+  }
 }
