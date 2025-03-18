@@ -1,22 +1,16 @@
 h1{
     font-size: 22px;
-    /* border: solid blue; */
 }
 section{
     text-align: center;
     margin-bottom: 50px;
-    /* border: solid red; */
 }
 
-.mother{
-    
-    /* border: solid purple; */
-}
 
 .card{
-    /* border: solid red; */
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .card:hover {
@@ -39,4 +33,18 @@ section{
 	100% {
 		opacity: 1;
 	}
+}
+
+img{
+    height: 150px;
+}
+
+.library{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-title{
+    justify-content: center;
+    color: #344058;
 }
