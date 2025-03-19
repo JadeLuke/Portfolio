@@ -117,5 +117,5 @@ p{
 }
 
 img:hover{
-    /* transform: scale(1.35); */
+cursor: pointer;
 }
