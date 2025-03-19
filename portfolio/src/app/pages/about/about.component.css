@@ -5,18 +5,13 @@ p{
 
 .about{
     text-align: center;
-    /* font-size: 12px; */
 }
 
 section{
-    /* margin-bottom: 50px; */
-    /* border: solid red; */
    text-align: center;
    margin-top: 30px;
 }
 h1{
-    /* border: solid red; */
-    /* margin-top: -180px; */
     font-size: 22px;
 }
 .hero{
@@ -26,19 +21,8 @@ h1{
     text-align: center;
 }
 
-button{
-    /* border: solid red; */
-}
-
-.btn{
-    /* border: solid red; */
- }
-
-
-
  .input{
     width: 750px;
-    /* width: 100%; */
     border-radius: 50px;
     justify-content: center; 
     margin-bottom: 6px;
@@ -47,42 +31,17 @@ button{
  }
  .inputFirst{
     width: 750px;
-    /* width: 100%; */
     border-radius: 20px;
-    /* justify-content: center;  */
     margin-bottom: 6px;
-    /* text-align: center; */
  }
 
- .container{
-    /* border: solid red; */
- 
-
- }
  .inputs{
-    /* border:solid green; */
     width: 550px;
     margin-left: auto;
     margin-right: auto;
  }
 
- .input:hover{
-    /* cursor: pointer;
-    background-color: #d2d8e5;
-    transform: scale(1.15);
-    transition: transform 0.3s ease;
-    font-weight: 500; */
- }
 
-#inputFirst:hover{
-    /* cursor: pointer;
-    transform: scale(1.25);
-    transition: transform 1.3s ease;
-    margin-bottom: 10px;
-    font-weight: 500; */
-}
-
-/* Media Queries for mobile responsiveness */
 
 /* For devices with a max-width of 768px */
 @media (max-width: 768px) {
@@ -101,7 +60,6 @@ button{
         padding: 0 10px;
     }
 
-    /* Adjust the text padding for smaller devices */
     .input span {
         font-size: 14px;
     }
@@ -125,20 +83,19 @@ button{
         padding: 0 5px;
     }
 
-    /* Adjust the text padding for very small screens */
     .input span {
         font-size: 10px;
     }
 
     #inputFirst:hover {
-        transform: scale(1.05); /* Reduced scaling effect for mobile */
+        transform: scale(1.05); 
         transition: transform 0.3s ease;
         font-weight: 500;
 
     }
 
     .input:hover {
-        transform: scale(1.05); /* Reduced scaling effect for mobile */
+        transform: scale(1.05); 
         transition: transform 0.3s ease;
         font-weight: 500;
     }
@@ -194,7 +151,6 @@ button{
 
 
 #inputFirst {
-    /* background: linear-gradient(#87b82a 0 0) no-repeat calc(200% - var(--p, 0%)) */
     background: linear-gradient(#4C6085 0 0) no-repeat calc(200% - var(--p, 0%))
 
     
@@ -212,7 +168,6 @@ button{
   }
 
   #inputTwo {
-    /* background: linear-gradient(#87b82a 0 0) no-repeat calc(200% - var(--p, 0%)) */
     background: linear-gradient(#4c7d85 0 0) no-repeat calc(200% - var(--p, 0%))
 
     
@@ -230,7 +185,6 @@ button{
   }
 
   #inputThree {
-    /* background: linear-gradient(#87b82a 0 0) no-repeat calc(200% - var(--p, 0%)) */
     background: linear-gradient(#4C6085 0 0) no-repeat calc(200% - var(--p, 0%))
 
     
@@ -248,7 +202,6 @@ button{
   }
 
   #inputFour {
-    /* background: linear-gradient(#87b82a 0 0) no-repeat calc(200% - var(--p, 0%)) */
     background: linear-gradient(#4c7d85 0 0) no-repeat calc(200% - var(--p, 0%))
 
     
@@ -266,7 +219,6 @@ button{
   }
 
   #inputFive {
-    /* background: linear-gradient(#87b82a 0 0) no-repeat calc(200% - var(--p, 0%)) */
     background: linear-gradient(#4C6085 0 0) no-repeat calc(200% - var(--p, 0%))
 
     
@@ -282,3 +234,79 @@ button{
     cursor: pointer;
     transform: scale(1.05);
   }
+
+  @media (max-width: 1024px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    
+    .container{
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .input, .inputFirst {
+        width: 90%;  
+        border-radius: 20px;
+        font-size: 15px; 
+        text-align: center;
+        padding: 10px;
+    }
+
+    .container {
+        padding: 0 15px; 
+    }
+
+    .input span {
+        font-size: 15px;  
+    }
+
+    #inputFirst {
+        animation-duration: 1.5s;
+    }
+
+    #inputTwo {
+        animation-duration: 2s;
+    }
+
+    #inputThree {
+        animation-duration: 2.5s;
+    }
+
+    #inputFour {
+        animation-duration: 3s;
+    }
+
+    #inputFive {
+        animation-duration: 3.5s;
+    }
+
+    #inputFirst:hover, #inputTwo:hover, #inputThree:hover, #inputFour:hover, #inputFive:hover {
+        transform: scale(1.08);
+    }
+}
+
+@media (max-width: 768px) {
+  h1 {
+      font-size: 18px;  
+  }
+
+  .input, .inputFirst {
+      width: 100%;
+      font-size: 11px;  
+      text-align: center;
+  }
+
+  .container {
+      padding: 0 10px;
+  }
+
+  .input span {
+      font-size: 10px;
+  }
+
+  #inputFirst:hover, #inputTwo:hover, #inputThree:hover, #inputFour:hover, #inputFive:hover {
+      transform: scale(1.05);   
+  }
+}

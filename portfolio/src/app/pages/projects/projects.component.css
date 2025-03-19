@@ -68,3 +68,41 @@ img{
   .btn{
     background-color: #4C6085;
   }
+
+  @media (max-width: 1024px) {
+    h1 {
+        font-size: 20px;  
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);  
+    }
+
+    img {
+        height: auto;  
+        width: 100%; 
+    }
+
+    .card-body {
+        padding: 1rem;  
+    }
+}
+
+/* Further adjustments for small tablets or mobile screens */
+@media (max-width: 768px) {
+    .cards {
+        grid-template-columns: 1fr;  
+    }
+
+    h1 {
+        font-size: 18px;  
+    }
+
+    .library {
+        width: 80px;  
+    }
+
+    .btn {
+        padding: 0.75rem 1.5rem;  
+    }
+}
