@@ -37,3 +37,7 @@ ul{
 		opacity: 1;
 	}
 }
+
+li:active{
+  background-color:#4C6085 ;
+}
