@@ -38,3 +38,5 @@
     50% {transform: rotate(var(--s,90deg))}
     100% {transform: rotate(0)}
   }
+
+  
