@@ -12,6 +12,7 @@ section{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    width: 355px;
 }
 
 .card:hover {
@@ -52,7 +53,7 @@ img{
 
 .liquid {
     /* background: linear-gradient(#87b82a 0 0) no-repeat calc(200% - var(--p, 0%)) */
-     background: linear-gradient(#4c7d85 0 0) no-repeat calc(200% - var(--p, 0%))
+     background: linear-gradient(rgb(19, 30, 37) 0 0) no-repeat calc(200% - var(--p, 0%))
     
       100% / 200% var(--p, 0.2em);
     transition: 0.3s var(--t, 0s),
@@ -93,6 +94,9 @@ img{
 @media (max-width: 768px) {
     .cards {
         grid-template-columns: 1fr;  
+    }
+    .card{
+        width: 280px;
     }
 
     h1 {

@@ -36,6 +36,10 @@ h1{
     margin-bottom: 6px;
  }
 
+ #inputFirst{
+    font-size: 12px;
+ }
+
  .inputs{
     width: 550px;
     margin-left: auto;
@@ -169,7 +173,7 @@ h1{
   }
 
   #inputTwo {
-    background: linear-gradient(#4c7d85 0 0) no-repeat calc(200% - var(--p, 0%))
+    background: linear-gradient(rgb(19, 30, 37) 0 0) no-repeat calc(200% - var(--p, 0%))
 
     
       100% / 200% var(--p, 0.2em);
@@ -203,7 +207,7 @@ h1{
   }
 
   #inputFour {
-    background: linear-gradient(#4c7d85 0 0) no-repeat calc(200% - var(--p, 0%))
+    background: linear-gradient(rgb(19, 30, 37) 0 0) no-repeat calc(200% - var(--p, 0%))
 
     
       100% / 200% var(--p, 0.2em);
@@ -310,4 +314,12 @@ h1{
   #inputFirst:hover, #inputTwo:hover, #inputThree:hover, #inputFour:hover, #inputFive:hover {
       transform: scale(1.05);   
   }
+}
+
+@media (max-width: 375px){
+  
+  .input-md span{
+    font-size: 9px;
+  }
+ 
 }

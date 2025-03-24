@@ -2,11 +2,12 @@
 section{
     /* background: hsla(219, 27%, 41%, 1); */
 background: radial-gradient(circle at -8.9% 51.2%, #b7bfce 0%, #4c6485 15.9%, #445677 15.9%, #445677 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+
 }
 
 img{
-    height: 290px;
-    width: 265px;
+    height: 280px;
+    width: 260px;
     border-radius: 190px;
 }
 
@@ -75,7 +76,7 @@ img{
 }
 
 .liquid {
-     background: linear-gradient(#4c7d85 0 0) no-repeat calc(200% - var(--p, 0%))  
+     background: linear-gradient(rgb(19, 30, 37) 0 0) no-repeat calc(200% - var(--p, 0%))  
       100% / 200% var(--p, 0.2em);
     transition: 0.3s var(--t, 0s),
       background-position 0.3s calc(0.3s - var(--t, 0s));
@@ -168,23 +169,25 @@ cursor: pointer;
     }
 
     .hero img {
-        margin-bottom: 20px; /* Space between image and text */
-        height: 250px;
-        width: 220px;
+        margin-bottom: 20px; 
+        height: 260px;
+        width: 250px;
         margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
+
     }
 
     .hero #text {
-        text-align: center;
+         margin-left: auto;
+        margin-right: auto;
     }
 
       .hoverImageWrapper{
-        text-align: center;
-        /* justify-content: center; */
-        width: 840px;
+        margin-left: auto;
+        margin-right: auto;
+      }
 
+      .hero{
+        align-items: center;
       }
     /* Ensure the image shows on tablet and doesn't get hidden */
     .hidden {
