@@ -1,0 +1,366 @@
+
+
+.skills{
+   justify-content: center;
+   align-items: center;
+}
+
+.skill{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+}
+
+.heading{
+    text-align: center;
+}
+
+
+#skills{
+padding-top: 60px;
+}
+
+.carousel{
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.container{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.mother{
+    gap: 10px;
+}
+
+svg{
+    height: 40px;
+}
+
+.card{
+    background-color: transparent;
+    height: 70px;
+    width: 150px;
+}
+
+  
+  .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+
+
+  /* Mobile */
+  @media (max-width: 768px) {
+    .mother.grid {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  .cards, .skill{
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 4s;
+}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+  @media (max-width: 1024px) {
+
+    .mother.grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        gap: 20px; 
+        justify-content: center;
+       
+
+}
+    .card {
+        width: 120px; 
+        height: 60px; 
+    }
+
+    .skill {
+        font-size: 18px; 
+    }
+
+    .heading h1 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .divider {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .mother.grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    .cards {
+        flex-direction: column; 
+        gap: 15px; 
+        justify-content: center;
+    }
+
+    .card {
+        width: 100px; 
+        height: 50px; 
+    }
+
+    .skill {
+        font-size: 18px; 
+    }
+
+    .heading h1 {
+        font-size: 18px; 
+    }
+
+    .carousel {
+        height: 60px;
+        width: 60px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .divider {
+        display: none;
+    }
+}
+
+.cards,
+.skill {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 4s;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about{
+    text-align: center;
+}
+
+section{
+    text-align: center;
+    /* margin-top: 30px; */
+}
+
+h1{
+    font-size: 22px;
+}
+
+.hero{
+    height: 400px;
+}
+
+.heading{
+    text-align: center;
+}
+
+.input{
+    width: 750px;
+    border-radius: 50px;
+    justify-content: center; 
+    margin-bottom: 6px;
+    color: #344058;
+}
+
+.inputFirst{
+    width: 750px;
+    border-radius: 20px;
+    margin-bottom: 6px;
+}
+
+
+.inputs{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#inputFirst, h1 {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function:ease-in;
+    animation-duration: 2s;
+}
+
+#inputTwo{
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+}
+
+#inputThree{
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 4s;
+}
+
+#inputFour{
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+}
+
+#inputFive{
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 6s;
+}
+
+#inputFirst, #inputTwo, #inputThree, #inputFour, #inputFive {
+    background: linear-gradient(#4C6085 0 0) no-repeat calc(200% - var(--p, 0%));
+    transition: 0.3s var(--t, 0s), background-position 0.3s calc(0.3s - var(--t, 0s));
+}
+
+#inputFirst:hover, #inputTwo:hover, #inputThree:hover, #inputFour:hover, #inputFive:hover {
+    --p: 100%;
+    --t: 0.3s;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* Tablet responsiveness */
+@media (max-width: 1024px) {
+    h1 {
+        font-size:  18px;
+    }
+  
+     .container{
+        margin-left: auto;
+        margin-right: auto;
+     }
+   
+    .input, .inputFirst {
+        width: 90%;  
+        border-radius: 20px;
+        font-size: 15px; 
+        text-align: center;
+        padding: 10px;
+    }
+
+    .container {
+        padding: 0 15px;  
+    }
+
+    .input span {
+        font-size: 15px;  
+    }
+
+    #inputFirst {
+        animation-duration: 1.5s;
+    }
+
+    #inputTwo {
+        animation-duration: 2s;
+    }
+
+    #inputThree {
+        animation-duration: 2.5s;
+    }
+
+    #inputFour {
+        animation-duration: 3s;
+    }
+
+    #inputFive {
+        animation-duration: 3.5s;
+    }
+
+    #inputFirst:hover, #inputTwo:hover, #inputThree:hover, #inputFour:hover, #inputFive:hover {
+        transform: scale(1.08);
+    }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 18px;  
+    }
+
+    .input, .inputFirst {
+        width: 100%;  
+        font-size: 14px;  
+        text-align: center;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .input span {
+        font-size: 14px;
+    }
+
+    #inputFirst:hover, #inputTwo:hover, #inputThree:hover, #inputFour:hover, #inputFive:hover {
+        transform: scale(1.05);  
+    }
+}

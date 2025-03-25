@@ -1,0 +1,325 @@
+p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about{
+    text-align: center;
+}
+
+section{
+   text-align: center;
+   /* margin-top: 50px; */
+   padding-top: 60px;
+}
+h1{
+    font-size: 22px;
+}
+.hero{
+    height: 400px;
+}
+.heading{
+    text-align: center;
+}
+
+ .input{
+    width: 750px;
+    border-radius: 50px;
+    justify-content: center; 
+    margin-bottom: 6px;
+    color: #344058;
+    
+ }
+ .inputFirst{
+    width: 750px;
+    border-radius: 20px;
+    margin-bottom: 6px;
+ }
+
+ #inputFirst{
+    font-size: 12px;
+ }
+
+ .inputs{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+
+
+/* For devices with a max-width of 768px */
+@media (max-width: 768px) {
+    h1{
+        font-size: 20px;
+    }
+
+    .input, .inputFirst {
+        width: 100%;
+        border-radius: 20px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .input span {
+        font-size: 14px;
+    }
+}
+
+/* For devices with a max-width of 480px */
+@media (max-width: 480px) {
+    h1{
+        font-size: 18px;
+    }
+
+    .input, .inputFirst {
+        width: 100%;
+        border-radius: 20px;
+        font-size: 12px;
+        text-align: center;
+        padding: 8px;
+    }
+
+    .container {
+        padding: 0 5px;
+    }
+
+    .input span {
+        font-size: 10px;
+    }
+
+    #inputFirst:hover {
+        transform: scale(1.05); 
+        transition: transform 0.3s ease;
+        font-weight: 500;
+
+    }
+
+    .input:hover {
+        transform: scale(1.05); 
+        transition: transform 0.3s ease;
+        font-weight: 500;
+    }
+}
+
+#inputFirst, h1 {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function:ease-in;
+	animation-duration: 2s;
+}
+
+#inputTwo{
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 3s;
+}
+
+#inputThree{
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 4s;
+}
+
+#inputFour{
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 5s;
+}
+
+#inputFive{
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 6s;
+}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+#inputFirst {
+    background: linear-gradient(#4C6085 0 0) no-repeat calc(200% - var(--p, 0%))
+
+    
+      100% / 200% var(--p, 0.2em);
+    transition: 0.3s var(--t, 0s),
+      background-position 0.3s calc(0.3s - var(--t, 0s));
+  }
+  
+  #inputFirst:hover {
+    --p: 100%;
+    --t: 0.3s;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+
+  #inputTwo {
+    background: linear-gradient(rgb(19, 30, 37) 0 0) no-repeat calc(200% - var(--p, 0%))
+
+    
+      100% / 200% var(--p, 0.2em);
+    transition: 0.3s var(--t, 0s),
+      background-position 0.3s calc(0.3s - var(--t, 0s));
+  }
+  
+  #inputTwo:hover {
+    --p: 100%;
+    --t: 0.3s;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+
+  #inputThree {
+    background: linear-gradient(#4C6085 0 0) no-repeat calc(200% - var(--p, 0%))
+
+    
+      100% / 200% var(--p, 0.2em);
+    transition: 0.3s var(--t, 0s),
+      background-position 0.3s calc(0.3s - var(--t, 0s));
+  }
+  
+  #inputThree:hover {
+    --p: 100%;
+    --t: 0.3s;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+
+  #inputFour {
+    background: linear-gradient(rgb(19, 30, 37) 0 0) no-repeat calc(200% - var(--p, 0%))
+
+    
+      100% / 200% var(--p, 0.2em);
+    transition: 0.3s var(--t, 0s),
+      background-position 0.3s calc(0.3s - var(--t, 0s));
+  }
+  
+  #inputFour:hover {
+    --p: 100%;
+    --t: 0.3s;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+
+  #inputFive {
+    background: linear-gradient(#4C6085 0 0) no-repeat calc(200% - var(--p, 0%))
+
+    
+      100% / 200% var(--p, 0.2em);
+    transition: 0.3s var(--t, 0s),
+      background-position 0.3s calc(0.3s - var(--t, 0s));
+  }
+  
+  #inputFive:hover {
+    --p: 100%;
+    --t: 0.3s;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+
+  @media (max-width: 1024px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    
+    .container{
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .input, .inputFirst {
+        width: 90%;  
+        border-radius: 20px;
+        font-size: 15px; 
+        text-align: center;
+        padding: 10px;
+    }
+
+    .container {
+        padding: 0 15px; 
+    }
+
+    .input span {
+        font-size: 15px;  
+    }
+
+    #inputFirst {
+        animation-duration: 1.5s;
+    }
+
+    #inputTwo {
+        animation-duration: 2s;
+    }
+
+    #inputThree {
+        animation-duration: 2.5s;
+    }
+
+    #inputFour {
+        animation-duration: 3s;
+    }
+
+    #inputFive {
+        animation-duration: 3.5s;
+    }
+
+    #inputFirst:hover, #inputTwo:hover, #inputThree:hover, #inputFour:hover, #inputFive:hover {
+        transform: scale(1.08);
+    }
+}
+
+@media (max-width: 768px) {
+  h1 {
+      font-size: 18px;  
+  }
+
+  .input, .inputFirst {
+      width: 100%;
+      font-size: 11px;  
+      text-align: center;
+  }
+
+  .container {
+      padding: 0 10px;
+  }
+
+  .input span {
+      font-size: 10px;
+  }
+
+  #inputFirst:hover, #inputTwo:hover, #inputThree:hover, #inputFour:hover, #inputFive:hover {
+      transform: scale(1.05);   
+  }
+}
+
+@media (max-width: 375px){
+  
+  .input-md span{
+    font-size: 9px;
+  }
+ 
+}

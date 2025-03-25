@@ -1,0 +1,210 @@
+
+section{
+    /* background: hsla(219, 27%, 41%, 1); */
+background: radial-gradient(circle at -8.9% 51.2%, #b7bfce 0%, #4c6485 15.9%, #445677 15.9%, #445677 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+
+}
+
+img{
+    height: 280px;
+    width: 260px;
+    border-radius: 190px;
+}
+
+.pic{
+    align-items: center;
+}
+
+.hero{
+    height: 450px;
+}
+
+img{
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.text-part {
+    display: inline-block;
+    position: relative;
+    transform: translateX(0);
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    margin-right: 5px;
+}
+
+.text-part.left {
+    transform: translateX(-200%);
+    animation-name: slide-in-left;
+}
+
+.text-part.right {
+    transform: translateX(200%);
+    animation-name: slide-in-right;
+}
+
+@keyframes slide-in-left {
+    0% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-in-right {
+    0% {
+        transform: translateX(200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.liquid {
+     background: linear-gradient(rgb(19, 30, 37) 0 0) no-repeat calc(200% - var(--p, 0%))  
+      100% / 200% var(--p, 0.2em);
+    transition: 0.3s var(--t, 0s),
+      background-position 0.3s calc(0.3s - var(--t, 0s));
+  }
+  
+  .liquid:hover {
+    --p: 100%;
+    --t: 0.3s;
+    color: #fff;
+  }
+
+  a{
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+p{
+    font-size: 18px;
+}
+
+img:hover{
+cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+    
+    .hero img {
+        margin-bottom: 20px;
+        height: 150px;
+        width: 150px;
+        border-radius:100px ;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1{
+        font-size: 10px;
+    }
+    .hero #text {
+     font-size: 10px;
+    }
+
+    .container{
+        align-items: start;
+        justify-content: start;
+        text-align: start;
+    }
+      .hoverImageWrapper{
+        text-align: center;
+        justify-content: center;
+        width: 250px;
+
+      }
+
+    .hidden {
+        display: block !important;
+    }
+    
+    .lg\\:flex {
+        display: block !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+    .hero img {
+        margin-bottom: 20px; 
+        height: 260px;
+        width: 250px;
+        margin-top: 20px;
+
+    }
+
+    .hero #text {
+         margin-left: auto;
+        margin-right: auto;
+    }
+
+      .hoverImageWrapper{
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .hero{
+        align-items: center;
+      }
+    /* Ensure the image shows on tablet and doesn't get hidden */
+    .hidden {
+        display: block !important;
+    }
+
+    .lg\\:flex {
+        display: block !important;
+    }
+
+}
+
+#text{
+    padding-left: 64px;
+}
+
+h1{
+    font-size: 90px;
+ }
+
