@@ -1,4 +1,4 @@
-/* .skills{
+.skills{
    justify-content: center;
    align-items: center;
 }
@@ -355,4 +355,4 @@ h1{
     #inputFirst:hover, #inputTwo:hover, #inputThree:hover, #inputFour:hover, #inputFive:hover {
         transform: scale(1.05);  
     }
-} */
+}
