@@ -1,6 +1,4 @@
-
-
-.skills{
+/* .skills{
    justify-content: center;
    align-items: center;
 }
@@ -62,9 +60,6 @@ svg{
     transform: scale(1.05);
     transition: transform 0.3s ease;
   }
-
-
-  /* Mobile */
   @media (max-width: 768px) {
     .mother.grid {
       grid-template-columns: repeat(2, 1fr); 
@@ -189,7 +184,6 @@ p{
 
 section{
     text-align: center;
-    /* margin-top: 30px; */
 }
 
 h1{
@@ -288,7 +282,6 @@ h1{
     transform: scale(1.05);
 }
 
-/* Tablet responsiveness */
 @media (max-width: 1024px) {
     h1 {
         font-size:  18px;
@@ -340,7 +333,6 @@ h1{
     }
 }
 
-/* Mobile responsiveness */
 @media (max-width: 768px) {
     h1 {
         font-size: 18px;  
@@ -363,4 +355,4 @@ h1{
     #inputFirst:hover, #inputTwo:hover, #inputThree:hover, #inputFour:hover, #inputFive:hover {
         transform: scale(1.05);  
     }
-}
+} */
